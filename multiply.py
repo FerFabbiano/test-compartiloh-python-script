@@ -9,4 +9,6 @@ log_file_path = os.path.join(current_dir, 'results', 'app.log')
 
 logging.basicConfig(filename=log_file_path, level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
 
+result = 2/0
+
 logging.info("Hello World!")
