@@ -11,5 +11,8 @@ log_file_path = os.path.join(current_dir, 'results', 'app.log')
 logging.basicConfig(filename=log_file_path, level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
 
 logging.info("Hello World!")
-time.sleep(30)
-logging.info("Sleep finished")
+i = 0
+while i < 1000000000000:
+  i += 1
+  
+logging.info("Finished loop")
