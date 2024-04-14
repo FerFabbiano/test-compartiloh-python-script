@@ -12,7 +12,7 @@ logging.basicConfig(filename=log_file_path, level=logging.INFO, format='%(asctim
 
 logging.info("Hello World!")
 i = 0
-while i < 1000000000000:
+while i < 100:
   i += 1
   
 logging.info("Finished loop")
